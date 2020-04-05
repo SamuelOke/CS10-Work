@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Roll Up The Rim!!</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="main">
+    <h1>Roll Up The Rim!!</h1>
+
+    
+    <p>Click the picture to simulate rolling up the rim! Good luck trying to win. Make sure you specify where you come from(either Alberta, British Columbia, or Saskatchewan). 
+    If you want, you can use the buttons to simulate other things. It won't work unless you input your location.</p>
+
+    <p><input id='input'></p>
+    <!-- Image & Results  -->
+    <img id="mainImg" src="images/roll-up-the-rim-to-win-1.jpg" style="width: 800px; height: 300px;">
+    <p><button id='5Times'>Roll 5 Times</button> <button id='UntilPrize'>Roll Until Prize</button> <button id='500Donuts'>Until 500 Donuts</button></p>
+    <p>
+      <strong>TOTALS -> </strong>
+      Please Roll Again: <span id="again">0</span> |
+      Coffee: <span id="coffee">0</span> |
+      Donut: <span id="donut">0</span>
+      Grand Prize: <span id="prize">0</span>
+    </p>
+    <hr>
+
+    
+    <p id="results"></p>
+  </div>
+
+
+  <!--  LOAD JAVASCRIPT -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
